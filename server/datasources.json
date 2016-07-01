@@ -1,1 +1,5 @@
-{}
+{
+  "FieldData": {
+    "url": "mssql://TSCSWebApps:t20_W23-a1@sqldev.tsco.org:1433/FieldData_Staging?schema=dbo.TSC_Projects"
+}
+}
