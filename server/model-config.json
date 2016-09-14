@@ -13,7 +13,8 @@
       "./mixins"
     ]
   },
-  "ProjectNames": {
+
+  "TSC_Projects": {
     "dataSource": "FieldData",
     "public": true
   }

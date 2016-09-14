@@ -1,0 +1,162 @@
+{
+  "name": "TSC_Projects",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "ProjectID": {
+      "type": "number",
+      "required": true
+    },
+    "IPRNumber": {
+      "type": "number"
+    },
+    "ProjectName": {
+      "type": "string"
+    },
+    "ProjectTypeID": {
+      "type": "number"
+    },
+    "MarketAsCluster": {
+      "type": "number"
+    },
+    "WhyMarketAsCluster": {
+      "type": "string"
+    },
+    "Active_Project": {
+      "type": "number"
+    },
+    "PrimaryManagementEntity": {
+      "type": "number"
+    },
+    "RequiresFunding": {
+      "type": "number"
+    },
+    "DonorRptsRequired": {
+      "type": "number"
+    },
+    "OneVerse": {
+      "type": "number"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Project_Mail_Instructions": {
+      "type": "string"
+    },
+    "SponsorshipBeginYr": {
+      "type": "number"
+    },
+    "Agreement_date": {
+      "type": "date"
+    },
+    "Agreement_end_date": {
+      "type": "date"
+    },
+    "CompletionDate": {
+      "type": "date"
+    },
+    "ProjEndYrInitial": {
+      "type": "number"
+    },
+    "ProjEndYrCurrent": {
+      "type": "number"
+    },
+    "SensitivityLevel": {
+      "type": "number"
+    },
+    "NoOfLanguages": {
+      "type": "number"
+    },
+    "ProfileWritten": {
+      "type": "number"
+    },
+    "LastUpdated": {
+      "type": "date"
+    },
+    "NoOfActiveInternships": {
+      "type": "number"
+    },
+    "RPP_Dest_Code": {
+      "type": "string"
+    },
+    "LOTFlag": {
+      "type": "number"
+    },
+    "LOTReason": {
+      "type": "string"
+    },
+    "RegionID": {
+      "type": "number"
+    },
+    "LocationID": {
+      "type": "number"
+    },
+    "WebLocationID": {
+      "type": "number"
+    },
+    "PeopleGroup": {
+      "type": "string"
+    },
+    "FieldOperAreaID": {
+      "type": "number"
+    },
+    "PipelineFlag": {
+      "type": "number"
+    },
+    "EntityID": {
+      "type": "number"
+    },
+    "OrganizationID": {
+      "type": "number"
+    },
+    "MOUSignedFlag": {
+      "type": "number"
+    },
+    "EmailContactType": {
+      "type": "number"
+    },
+    "FinRptTypeID": {
+      "type": "number"
+    },
+    "SecondLOMFlag": {
+      "type": "number"
+    },
+    "GlobalInitiativesFlag": {
+      "type": "number"
+    },
+    "xxxx_HistFieldsBelow_xxxx": {
+      "type": "string"
+    },
+    "DefaultFundingProject": {
+      "type": "number"
+    },
+    "LP30": {
+      "type": "number"
+    },
+    "MostRecentProjRptRec": {
+      "type": "date"
+    },
+    "MostRecentFinRptRec": {
+      "type": "date"
+    },
+    "MostRecentUpdateSent": {
+      "type": "date"
+    },
+    "TotalProjectBudget": {
+      "type": "number"
+    },
+    "TotalYears": {
+      "type": "number"
+    },
+    "Entity_Code_v2_4": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
