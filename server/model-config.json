@@ -14,8 +14,8 @@
     ]
   },
 
-  "TSC_Projects": {
-    "dataSource": "FieldData",
+  "table": {
+    "dataSource": "dbname",
     "public": true
   }
 }
